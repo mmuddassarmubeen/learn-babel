@@ -1,0 +1,25 @@
+{
+  "name": "learn-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp build",
+    "amd-build": "./node_modules/.bin/gulp amd-bundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/plugin-transform-modules-amd": "^7.0.0-beta.54",
+    "@babel/plugin-transform-modules-umd": "^7.0.0-beta.54",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-alpha.20",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-requirejs": "^1.1.1",
+    "require-dir": "^1.0.0"
+  }
+}
